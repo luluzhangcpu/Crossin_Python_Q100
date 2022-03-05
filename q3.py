@@ -1,4 +1,4 @@
-# Q2: 按相反顺序输出列表 ['one', 'two', 'three']的值
+# Q3: 按相反顺序输出列表 ['one', 'two', 'three']的值
 # 第一种做法：
 l1 = ['one','two','three']
 for i in range(1,len(l1)+1):
