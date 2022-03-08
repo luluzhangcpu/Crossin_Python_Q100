@@ -8,7 +8,7 @@ def num(n):
             return False
     return True
 
-for a in range(1,99):
+for a in range(2,99):
     for b in range(a+2,101):
         if num(a) and num(b) and b - a == 2:
             print(b,a)
