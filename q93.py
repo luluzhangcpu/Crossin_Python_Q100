@@ -10,7 +10,7 @@ for i in range(1,1000):
 
 l2 = []
 for i in l1:
-    if i == 1 or i == 2 or i == 3:
+    if i == 2 or i == 3:
         l2.append(i)
     else:
         for j in range(2,i):
