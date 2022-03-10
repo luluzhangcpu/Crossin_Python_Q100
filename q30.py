@@ -1,4 +1,7 @@
 # Q30: 输入三角形三个边求计算三角形的面积
+# 分析："三角形两边之和大于第三边，S=sqrt[p(p-a)(p-b)(p-c)]"
+# 上述 p，为三角形半周长
+
 from math import sqrt as math_sqrt
 h = True
 while h == True:
